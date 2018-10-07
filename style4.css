@@ -1,0 +1,74 @@
+body{
+  background: linear-gradient(to bottom, black 19% ,green 100% , black  );
+  background-repeat: no-repeat;
+  background-size: 150% 150%;
+}
+header{
+  position: relative;
+  text-align: center;
+  border-bottom: 3px solid black;
+  background: radial-gradient(ellipse, green 10%,black 60%);
+}
+nav{
+  position: relative;
+  text-align: center;
+  font-family: Bangers;
+  color: white;
+  font-size: 1.5em;
+}
+a{
+  color: yellow;
+}
+img#trans{
+  position: absolute;
+  right: 0px;
+  opacity: 0.2;
+}
+img#mapa{
+  position: relative;
+  float: right;
+  display: block;
+  z-index: 3;
+}
+
+img#mapa:hover{
+  position: relative;
+  z-index: 2;
+  transform: translate(-650px,350px) scale(11.1);
+  transition: 1s;
+}
+section{
+  position: relative;
+  top: 90px;
+  font-family: arial;
+  font-size: 1.3em;
+}
+footer.capitulos{
+  position: relative;
+  top: 250px;
+}
+body.capitulos{
+height: 550px;
+}
+footer.capitulos2{
+  position: relative;
+  top: 190px;
+}
+footer.capitulos3{
+  position: relative;
+  top: 150px;
+}
+img#hoja{
+  position: relative;
+  float: left;
+  display: block;
+  z-index: 3;
+}
+img#hoja:hover{
+  position: relative;
+  float: left;
+  display: block;
+  transform: scale(1.4);
+  transition: 1.5s;
+  z-index: 3;
+}
